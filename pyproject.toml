@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-poetry"
+version = "0.1.0"
+description = "poetry project"
+authors = ["Marina-Kamaltdinova <m.kamaltdinova@ctrl2go.solutions>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+selene = "2.0.0rc9"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
